@@ -307,6 +307,7 @@ destinations: dir-redcap.med.uni-heidelberg.de, localhost
 mynetworks (who can permit this email server): 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
 ``` 
 about the mynetworks: 
+
 a) 127.0.0.0/8: This is for IPv4. It means that any IP address that starts with 127 is allowed to relay mail. In practical terms, this is usually just the loopback interface 127.0.0.1, aka localhost.
 
 b) [::ffff:127.0.0.0]/104: This is an IPv6-mapped IPv4 address. This means that the IPv4 loopback can be accessed via this IPv6 address. Again, this is a form of localhost but in an IPv6 context.
